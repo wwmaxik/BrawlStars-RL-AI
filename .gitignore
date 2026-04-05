@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Models (too large for git) - YOLOv8 is NOW included
+*.zip
+brawl_yolo_recurrent_ppo*.zip
+brawl_yolo_recurrent_ppo_best.zip
+
+# Logs
+logs/*.zip
+logs/tensorboard/
+
+# YOLOv8 model is included (not ignored)
+# yolov8_model/*.pt
+# yolov8_model/*.engine
+# yolov8_model/*.xml
+# yolov8_model/*.bin
+
+# Debug files
+debug*.png
+debug*.jpg
+debug*.bmp
+*.log
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.bak
+*.err
+out.txt
+error.txt
+
+# Jupyter
+.ipynb_checkpoints
+
+# PyTorch
+torch-*.whl
+torchvision-*.whl
+
+# OpenVINO
+openvino_model/

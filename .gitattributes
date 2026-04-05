@@ -1,0 +1,24 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files you want to be treated as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.bmp binary
+
+# Model files (binary)
+*.pt binary
+*.bin binary
+*.xml binary
+*.engine binary
+*.zip binary
+
+# Ensure shell scripts use LF
+*.sh text eol=lf
+
+# Ensure Windows scripts use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
